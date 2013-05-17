@@ -1,0 +1,85 @@
+/*
+ * Designed by
+ * Eungchan Kim
+ * May 2013
+ */
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+a:link {color:#000000;}      /* unvisited link */
+a:visited {color:#000000;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:active {color:#000000;}  /* selected link */
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+	/* height:100%; */
+	font-family: 'PT Serif', serif;
+/*	font-family: 'Oxygen', sans-serif;*/
+	text-align:center;
+}
+#title{
+	margin:30px 0 0 0;
+	font-size: 4em;
+	font-family: 'Lobster', cursive;
+}
+#tagline{
+	margin: 30px 0 -30px 0;
+}
+
+#input-box, #result-wrapper {
+	
+	width:800px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#result-wrapper {
+	border-top:dotted 1px #000;
+}
+form {
+	width:500px;
+	margin: 0px auto;
+}
+#video-info{
+	width:600px;
+	margin:0px auto;
+}
+
+#youtube, #facebook, #twitter{
+	float:left;
+	width: 200px;
+	margin:0 auto;
+}
+label{
+	font-family: 'Denk One', sans-serif;
+}
+	
+#real, #estimated, #accuracy{
+	float:left;
+	width: 200px;
+	margin:50px auto;	
+	font-family: 'Denk One', sans-serif;
+}
+#social-wrapper{
+	width:600px;
+	margin:0px auto;
+}
+#viewcount-wrapper{
+	margin:auto;
+	width:600px;
+}
+#footer{
+	width: 800px;
+	margin:30px auto;
+	padding-top:10px;
+	clear:both;
+	font-size:.8em;
+	color: #000;
+	border-top:dotted 1px #000;
+	text-align: right;
+}
+img { display: block; margin-left: auto; margin-right: auto; }

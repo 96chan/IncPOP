@@ -1,0 +1,51 @@
+<!-- 
+* Designed by
+* Eungchan Kim
+* May 2013
+*/ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+ 
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>IncPoP</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Chan Kim">
+	<link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>	
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="title"><a href="http://people.ischool.berkeley.edu/~chan/projects/incpop">IncPoP</a></div>
+<div id="input-box">
+<form>
+    <input type="text" id="video_url" name="video_url" size="50" data-required="true" placeholder="Paste YouTube Link"/>
+	<input type="submit" value="Analyze!"/>
+</form>
+</div>
+<div id="result-wrapper">
+<div id="main-image"><img src="main_image.png" style="width:70%;height:70%;" /></div>
+	<div id="video-info">
+		<div id="video-title"></div>
+		<div id="video-date"></div>
+		<div id="video-clip"></div>
+	</div>
+	<div id="viewcount-wrapper">
+		<div id="tagline"></div>
+		<div id="real"></div>
+		<div id="estimated"></div>
+		<div id="accuracy"></div>
+	</div>
+	<div id="social-wrapper">
+		<div id="youtube"></div>
+		<div id="facebook"></div>
+		<div id="twitter"></div>
+	</div>
+</div>
+<div id="footer">&#169;2013 <a href="http://96chany.com">Eungchan Kim</a>, JT Huang</div>
+</body>
+</html>
